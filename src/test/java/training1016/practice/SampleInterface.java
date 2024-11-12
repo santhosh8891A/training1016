@@ -1,5 +1,3 @@
-package training1016.practice;
-
 public interface SampleInterface extends parent1,parent2 {
 	
 	int i=5;
