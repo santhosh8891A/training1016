@@ -20,4 +20,5 @@ public interface SampleInterface extends parent1,parent2 {
 	
 	 public void sameMethod();
 
+	 
 }
