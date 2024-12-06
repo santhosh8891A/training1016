@@ -19,17 +19,21 @@ public class WindowsDemo {
 		
 		//Fetch all opned window ids
 		Set<String> windowids=driver.getWindowHandles();
-		
+		String child1windowid;
 		for(String id:windowids)
 		{
 			if(!parentwindowid.contentEquals(id))
 			{
 				driver.switchTo().window(id);
+				 child1windowid=id;
 			}
 		}
 		
 		String text=driver.findElement(By.id("sampleHeading")).getText();
 		System.out.println(text);
+		
+		driver.switchTo().window(parentwindowid);
+		
 
 		
 	}
