@@ -17,8 +17,9 @@ public class ExceptionsDemo {
 		driver.navigate().refresh();
 		elemet=driver.findElement(By.xpath("//*[text()='Elements']"));
 		//elemet.click();
-		driver.quit();
 		elemet.click();
+		driver.quit();
+		
 
 	}
 
