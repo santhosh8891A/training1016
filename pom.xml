@@ -13,6 +13,15 @@
 			<artifactId>selenium-java</artifactId>
 			<version>4.13.0</version>
 		</dependency>
-
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>4.1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>automation</groupId>
+			<artifactId>demo0911</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 </project>
