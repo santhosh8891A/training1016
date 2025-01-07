@@ -12,13 +12,14 @@ import org.testng.annotations.Test;
 
 public class FirstTestNG extends Parent {
 	
-	@Test
+	//smoke
+	@Test(groups={"smoke","regressoion"})
 	public void firtMethod() {
 		System.out.println("---This is a first Method--");
 	}
 
 	
-	@Test
+	@Test(groups={"regressoion"})
 	public void secondMEthod()
 	{
 		System.out.println("---This is a second Method--");
