@@ -1,24 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Reg Suite">
+<suite name="Reg Suite" parallel='classes' thread-count="2">
+<parameter name="browser" value="edge"></parameter>
+<parameter name="title" value="Radio Button"></parameter>
+	<test thread-count="5"  name="Reg Test2" >
+		<classes>
 
-<groups>
-	<run>
-		<include name="smoke"></include>
-	</run>
-</groups>
- <test thread-count="5" name="Reg Test">
-    <classes>
-      <class name="com.testNG.SecondTestNG"/>
-      <class name="com.testNG.FirstTestNG"/>
-       
-    </classes>
-  </test> <!-- Test -->
-  
-  <test thread-count="5" name="Reg Test2">
-    <classes>
-       
-      <class name="com.testNG.ThridTestNG"/>
-    </classes>
-  </test> <!-- Test -->
+			<class name="com.testNG.ParameterizationTestibng" />
+			 
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->
