@@ -10,6 +10,7 @@ public class DataProviderTesting {
 	public void testCase(String par1,String par2)
 	{
 		System.out.println(par1+"  "+par2);
+		//This is to test Git functionality
 	}
 	
 	
