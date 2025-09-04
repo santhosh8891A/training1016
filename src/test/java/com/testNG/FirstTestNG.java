@@ -16,6 +16,7 @@ public class FirstTestNG extends Parent {
 	@Test(groups={"smoke","regressoion"})
 	public void firtMethod() {
 		System.out.println("---This is a first Method--");
+		///This is to test pull request
 	}
 
 	
