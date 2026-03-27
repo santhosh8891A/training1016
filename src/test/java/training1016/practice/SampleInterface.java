@@ -1,4 +1,6 @@
-public interface SampleInterface extends parent1,parent2 {
+package training1016.practice;
+
+interface SampleInterface  {
 	
 	int i=5;
 
@@ -9,16 +11,4 @@ public interface SampleInterface extends parent1,parent2 {
 }
 
 
- interface parent1 {
-	
-	 public void sameMethod();
-
-}
  
- 
- interface parent2 {
-	
-	 public void sameMethod();
-
-	 
-}
